@@ -8,6 +8,14 @@
     color: #78070B;
 }
 
+.logo{
+    width: 320px;
+}
+
+.navbar{
+   min-height: 100px;
+}
+
 /* HEADER */
 
 .app-header-bgc{
@@ -23,4 +31,23 @@
 .app-header-bgc_main{
     height: 100%;
     width: 65%;
+}
+
+@media screen and (max-width: 1200px) {
+    .logo {
+       width: 240px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .logo {
+       width: 160px;
+    }
+    .navbar{
+        min-height: 100%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .logo {
+       width: 80px;
+    }
 }
