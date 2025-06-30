@@ -76,6 +76,8 @@ a:active{
 
 .block-mini-news{
     width: 30%;
+    height: 550px;
+    overflow: clip;
 }
 
 .block-mini-news-items{
@@ -86,7 +88,6 @@ a:active{
 .block-mini-news__item{
     border-bottom:  #78070B solid 1.5px;
 }
-
 
 /* MEDIA */
 
