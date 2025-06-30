@@ -79,7 +79,6 @@ a:active{
     height: 550px;
     overflow: clip;
 }
-
 .block-mini-news-items{
     width: 100%;
     border-top: #78070B solid 1.5px;
@@ -87,6 +86,32 @@ a:active{
 }
 .block-mini-news__item{
     border-bottom:  #78070B solid 1.5px;
+}
+
+/* customers */
+
+.block-customers-content{
+    border-top: #78070B solid 1.5px;
+}
+.block-customers-content__item{
+    width: 250px;
+    height: 200px;
+    text-align: center;
+}
+.block-customers-content__img{
+    object-fit: fill 
+}
+.block-customers-content__img[alt="mnpz"]{
+    width: 150px;
+}
+.block-customers-content__img[alt="gazprom"]{
+    width: 250px;
+}
+.block-customers-content__img[alt="ecogaz"]{
+    width: 250px;
+}
+.block-customers-content__img[alt="nefthim"]{
+    width: 150px;
 }
 
 /* MEDIA */
