@@ -4,6 +4,14 @@ li{
     list-style: none;
 }
 
+a,
+a:hover,
+a:focus,
+a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
 .bgc-main{
     background-color: #78070B;
 }
@@ -73,9 +81,10 @@ li{
 .block-mini-news-items{
     width: 100%;
     border-top: #78070B solid 1.5px;
+    border-left:  #78070B solid 1.5px;
 }
 .block-mini-news__item{
-    border-left:  #78070B solid 1.5px;
+    border-bottom:  #78070B solid 1.5px;
 }
 
 
