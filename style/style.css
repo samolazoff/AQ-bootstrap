@@ -114,6 +114,13 @@ a:active{
     width: 150px;
 }
 
+/* contacts */
+
+.block-contacts-content{
+    width: 100%;
+    border-top: #78070B solid 1.5px;
+}
+
 /* MEDIA */
 
 @media screen and (max-width: 1200px) {
