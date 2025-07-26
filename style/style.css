@@ -156,6 +156,42 @@ textarea{
     height: 80px;
 }
 
+/* SERVICES */
+.block-services .title-block{
+    width: 100%;
+    border-bottom: #78070B solid 1.5px;
+}
+
+.block-services__subtitle{
+    display: block;
+    width: 80%;
+}
+
+.block-services-items{
+    width: 100%;
+}
+
+.block-services-item{
+    width: 200px;
+    height: 250px;
+}
+
+.block-services-item__txt{
+    height: 50px;
+}
+
+.block-services__img{
+    width: 100%;
+    object-fit: scale-down;
+}
+.block-services__img_ndt{
+    height: 240px;
+}
+.block-services-item-ndt{
+    width: 210px;
+    height: 300px;
+}
+
 /* MEDIA */
 
 @media screen and (max-width: 1200px) {
