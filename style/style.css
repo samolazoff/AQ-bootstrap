@@ -1,5 +1,15 @@
 @import url(./bootstrap/bootstrap.min.css);
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    padding: 0;
+}
+
 li{
     list-style: none;
 }
@@ -22,6 +32,10 @@ a:active{
 
 .logo{
     width: 320px;
+}
+
+.txt_small{
+    font-size: 10px !important;
 }
 
 .navbar{
@@ -67,6 +81,7 @@ a:active{
     height: 300px;
     border-radius: 25px;
 }
+
 .slider__img{
     width: 300px;
     border-radius: 25px;
@@ -119,6 +134,17 @@ a:active{
 .block-contacts-content{
     width: 100%;
     border-top: #78070B solid 1.5px;
+}
+.contacts-form{
+    max-width: 680px;
+}
+.contacts-form-content__item input, textarea{
+    width: 300px;
+    border:#78070B solid 2px;
+}
+
+textarea{
+    border-radius: 10px
 }
 
 /* MEDIA */

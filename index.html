@@ -158,25 +158,51 @@
                 <div class="block-contacts-content d-flex flex-row justify-content-between align-items-center flex-wrap mt-1">
                     <address class="contacts-main mt-2">
                         <ul class="contacts-main-items d-flex flex-column justify-content-start align-items-start gap-2">
-                            <li class="contacts-main-item d-flex flex-row gap-2 fs-5">
+                            <li class="contacts-main-item d-flex flex-row gap-2 ">
                                 <span class="fw-bold">Адрес:</span>
                                 <span>220084, г. Минск, ул. Франциска Скорины, д. 51, пом. 301А</span>
                             </li>
-                            <li class="contacts-main-item d-flex flex-row gap-2 fs-5">
+                            <li class="contacts-main-item d-flex flex-row gap-2">
                                 <span class="fw-bold">Тел./факс:</span>
                                 <span>+375 (17) 232-13-13</span>
                             </li>
-                            <li class="contacts-main-item d-flex flex-row gap-2 fs-5">
+                            <li class="contacts-main-item d-flex flex-row gap-2">
                                 <span class="fw-bold">E-mail:</span>
                                 <a href="mailto:alfaquality@ya.ru">alfaquality@ya.ru</a>
                             </li>
-                            <li class="contacts-main-item d-flex flex-row gap-2 fs-5">
+                            <li class="contacts-main-item d-flex flex-row gap-2">
                                 <span class="fw-bold">Часы работы:</span>
                                 <span>9:00 - 17:00</span>
                             </li>
                         </ul>
                     </address>
-                    <form class="contacts-form" method="post"></form>
+                    <form class="contacts-form d-flex flex-column justify-content-start align-items-center gap-1 mt-5" method="post">
+                        <h3 class="contacts-form-title">Мы на связи</h3>
+                        <h4 class="contacts-form-subtitle">Оставте заявку, и мы свяжемся с вами</h4>
+                        <div class="contacts-form-content d-flex flex-row flex-wrap gap-5 mt-2">
+                            <ul class="contacts-form-content-items d-flex flex-column mt-2">
+                                <li class="mb-3 contacts-form-content__item">
+                                    <label for="formContactsNameUser" class="form-label fw-bold">Ваше имя:</label>
+                                    <input type="text" class="form-control" id="formContactsNameUser" placeholder="Введите ваше имя">
+                                </li>
+                                <li class="mb-3 contacts-form-content__item">
+                                    <label for="formContactsNameCompany" class="form-label fw-bold">Ваше имя:</label>
+                                    <input type="text" class="form-control" id="formContactsNameCompany" placeholder="Введите название компании">
+                                </li>
+                                <li class="mb-3 contacts-form-content__item">
+                                    <label for="formContactsNameCompany" class="form-label fw-bold">Ваш номер телефона:</label>
+                                    <input type="tel" class="form-control" id="formContactsNameCompany" placeholder="Введите номер телефона">
+                                </li>
+                            </ul>
+                            <div class="contacts-form-content__item d-flex flex-column mt-2">
+                                <label for="formContactsTxt" class="form-label fw-bold">Ваш сообщение:</label>
+                                <textarea name="formContactsTxt" id="" rows="9" cols="50"></textarea>
+                            </div>
+                        </div>
+                        <span class="txt_small fs-10 text-center">Нажимая кнопку "Отправить", вы соглашаетесь на обработку персональных данных в соответствие с Политикой конфидициальности.</span>
+                        <button class="btn btn-dark bgc-main border-0 fs-5 mt-2" type="submit">Отправить</button>
+                        
+                    </form>
                 </div>
             </section>
         </main>
