@@ -209,6 +209,24 @@ textarea{
     width: 100px;
 }
 
+.arrow{
+    width: 36px;
+    cursor: pointer;
+}
+
+.arrow:hover{
+    width: 40px;
+}
+
+.block-licenses-item-box-img-big{
+    width: 100%;
+    border-top: #78070B solid 1.5px;
+}
+
+.block-licenses-item-box-img-big__img{
+    width: 45%;
+}
+
 /* MEDIA */
 
 @media screen and (max-width: 1200px) {
