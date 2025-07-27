@@ -194,6 +194,21 @@ textarea{
     height: 300px;
 }
 
+/* LICENSES */
+
+.block-licenses-items{
+    width: 100%;
+    border-top: #78070B solid 1.5px;
+}
+.block-licenses-item{
+    width: 100%;
+    border: #78070B solid 1.5px;
+    border-radius: 20px;
+}
+.block-licenses-content-item__img{
+    width: 100px;
+}
+
 /* MEDIA */
 
 @media screen and (max-width: 1200px) {
