@@ -226,7 +226,13 @@ textarea{
 .block-licenses-item-box-img-big__img{
     width: 45%;
 }
+/* REVIEWS */
 
+.block-reviews-content {
+    width: 100%;
+    border-top: #78070B solid 1.5px;
+
+}
 /* MEDIA */
 
 @media screen and (max-width: 1200px) {
