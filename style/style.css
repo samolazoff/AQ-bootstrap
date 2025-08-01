@@ -237,7 +237,14 @@ textarea{
 .block-news-content {
     width: 100%;
     border-top: #78070B solid 1.5px;
-
+}
+.block-news-content-item {
+    width: 100%;
+    border-bottom: #78070B solid 1.5px;
+}
+.block-news-content__img{
+    max-width: 480px;
+    align-self: center;
 }
 /* MEDIA */
 
