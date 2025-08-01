@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>AQ</title>
 </head>
 <body>
@@ -60,10 +62,37 @@
         <main class="app-main container mt-5">
             <section class="block-reviews d-flex flex-column justify-content-start align-items-start mt-5">
                 <h2 class="title-block fs-1 color-main">Отзывы</h2>
-                <div class="block-reviews-content mt-2">
-
+                <div class="swiper w-100">
+                    <div class="swiper-wrapper w-100">
+                        <div class="swiper-slide d-flex gap-5 justify-content-center">
+                            <img class="swiper__img" src="../static/img/swiper/1-1.jpg" alt="1-1.jpg">
+                            <img class="swiper__img" src="../static/img/swiper/1-2.jpg" alt="1-2.jpg">
+                        </div>
+                        <div class="swiper-slide d-flex gap-5 justify-content-center">
+                            <img class="swiper__img" src="../static/img/swiper/2-1.jpg" alt="2-1.jpg">
+                        </div>
+                       <div class="swiper-slide d-flex gap-5 justify-content-center">
+                            <img class="swiper__img" src="../static/img/swiper/3-1.jpg" alt="3-1.jpg">
+                            <img class="swiper__img" src="../static/img/swiper/3-2.jpg" alt="3-2.jpg">
+                        </div>
+                        <div class="swiper-slide d-flex gap-5 justify-content-center">
+                            <img class="swiper__img" src="../static/img/swiper/4-1.jpg" alt="4-1.jpg">
+                        </div>
+                        <div class="swiper-slide d-flex gap-5 justify-content-center">
+                            <img class="swiper__img" src="../static/img/swiper/5-1.jpg" alt="5-1.jpg">
+                        </div>
+                        <div class="swiper-slide d-flex gap-5 justify-content-center">
+                            <img class="swiper__img" src="../static/img/swiper/6-1.jpg" alt="6-1.jpg">
+                        </div>
+                        <div class="swiper-slide d-flex gap-5 justify-content-center">
+                            <img class="swiper__img" src="../static/img/swiper/7-1.jpg" alt="7-1.jpg">
+                        </div>
+                    </div>
+                    <!-- Add Pagination, Navigation buttons, etc. if needed -->
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-                
             </section>
         </main>
         <footer class="app-footer container-fluid mt-5 position-relative">
@@ -75,5 +104,33 @@
         </footer>
     </div>
     <script src="/scripts/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+            // controller: {
+            //     by: 'container',
+            //     control: 'any'
+            // }
+        });
+    </script>
 </body>
 </html>

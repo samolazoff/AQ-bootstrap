@@ -246,6 +246,13 @@ textarea{
     max-width: 480px;
     align-self: center;
 }
+
+
+.swiper__img{
+    width: 480px;
+}
+
+
 /* MEDIA */
 
 @media screen and (max-width: 1200px) {
