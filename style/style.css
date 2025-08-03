@@ -247,11 +247,14 @@ textarea{
     align-self: center;
 }
 
-
 .swiper__img{
     width: 480px;
 }
 
+.swiper {
+    width: 100%;
+    border-top: #78070B solid 1.5px;
+}
 
 /* MEDIA */
 

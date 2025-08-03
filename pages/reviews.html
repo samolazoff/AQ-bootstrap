@@ -62,8 +62,8 @@
         <main class="app-main container mt-5">
             <section class="block-reviews d-flex flex-column justify-content-start align-items-start mt-5">
                 <h2 class="title-block fs-1 color-main">Отзывы</h2>
-                <div class="swiper w-100">
-                    <div class="swiper-wrapper w-100">
+                <div class="swiper w-100 mt-2">
+                    <div class="swiper-wrapper w-100 mt-5">
                         <div class="swiper-slide d-flex gap-5 justify-content-center">
                             <img class="swiper__img" src="../static/img/swiper/1-1.jpg" alt="1-1.jpg">
                             <img class="swiper__img" src="../static/img/swiper/1-2.jpg" alt="1-2.jpg">
@@ -88,7 +88,6 @@
                             <img class="swiper__img" src="../static/img/swiper/7-1.jpg" alt="7-1.jpg">
                         </div>
                     </div>
-                    <!-- Add Pagination, Navigation buttons, etc. if needed -->
                     <div class="swiper-pagination"></div>
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
@@ -103,34 +102,8 @@
             </div>
         </footer>
     </div>
-    <script src="/scripts/bootstrap.min.js"></script>
+    <script src="../scripts/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-     <script>
-        const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            direction: 'horizontal',
-            loop: true,
-
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            // And if we need scrollbar
-            scrollbar: {
-                el: '.swiper-scrollbar',
-            },
-            // controller: {
-            //     by: 'container',
-            //     control: 'any'
-            // }
-        });
-    </script>
+    <script src="../scripts/swiper.js"></script>
 </body>
 </html>
