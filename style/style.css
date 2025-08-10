@@ -312,6 +312,30 @@ textarea{
         width: 200px;
         border-radius: 25px;
     }
+
+    .block-customers-content{
+        border-top: #78070B solid 1.5px;
+    }
+    .block-customers-content__item{
+        width: 120px;
+        height: 200px;
+        text-align: center;
+    }
+    .block-customers-content__img{
+        object-fit: fill 
+    }
+    .block-customers-content__img[alt="mnpz"]{
+        width: 80px;
+    }
+    .block-customers-content__img[alt="gazprom"]{
+        width: 120px;
+    }
+    .block-customers-content__img[alt="ecogaz"]{
+        width: 120px;
+    }
+    .block-customers-content__img[alt="nefthim"]{
+        width: 80px;
+    }
 }
 
 @media screen and (max-width: 576px) {
